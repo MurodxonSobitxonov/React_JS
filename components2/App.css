@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7cfd6;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #f6bfc9;
+  padding: 25px;
+  border-radius: 22px;
+}
+
+.title {
+  text-align: center;
+  background: #ffe1e8;
+  padding: 10px 0;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.card {
+  background: #fff0f4;
+  border-radius: 16px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.imgBox {
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgBox img {
+  max-width: 100%;
+  max-height: 70px;
+  object-fit: contain;
+}
+
+.card p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
