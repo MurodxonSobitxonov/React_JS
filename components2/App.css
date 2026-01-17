@@ -45,7 +45,7 @@ body {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
 
-.imgBox {
+.Box {
   background: white;
   border-radius: 12px;
   padding: 8px;
@@ -55,7 +55,7 @@ body {
   justify-content: center;
 }
 
-.imgBox img {
+.Box img {
   max-width: 100%;
   max-height: 70px;
   object-fit: contain;

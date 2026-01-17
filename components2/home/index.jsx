@@ -24,7 +24,7 @@ function App() {
       <div className="grid">
         {fruits.map((fruit) => (
           <div key={fruit.id} className="card">
-            <div className="imgBox">
+            <div className="Box">
               <img src={fruit.img} alt={fruit.name} />
             </div>
             <p>{fruit.name}</p>
