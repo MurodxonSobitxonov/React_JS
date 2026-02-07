@@ -1,10 +1,9 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Home from './components/Home'
-
+import Parent from './components'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <Home />
+    <Parent />
   </>,
 )
